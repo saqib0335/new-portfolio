@@ -39,7 +39,7 @@ export const PROJECTS = [
     id: 1,
     title: "EV-SITE",
     description:
-      "A beautiful and dynamic Landing Page Electric Vechicel with click button of video",
+      "A beautiful and dynamic Landing Page Electric Vehicle with click button of video",
     techStack: ["React", 'CSS', 'React Hooks'],
     imgSrc: project1,
     link: "https://ev-website-chi.vercel.app",
