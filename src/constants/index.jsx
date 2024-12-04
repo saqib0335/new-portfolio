@@ -39,7 +39,7 @@ export const PROJECTS = [
     id: 1,
     title: "EV-SITE",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
+      "A beautiful and dynamic Landing Page Electric Vechicel with click button of video",
     techStack: ["React", 'CSS', 'React Hooks'],
     imgSrc: project1,
     link: "https://ev-website-chi.vercel.app",
@@ -49,7 +49,7 @@ export const PROJECTS = [
     title: "IPHONE",
     description:
       "The Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. From custom animations to animated 3D models.",
-    techStack: ["React", "Redux", 'GSAP'],
+    techStack: ["React", "Redux", 'GSAP', 'Three.js'],
     imgSrc: project2,
     link: "https://iphone-web-nu.vercel.app/",
   },
@@ -66,7 +66,7 @@ export const PROJECTS = [
     id: 4,
     title: "Beautiful Landing Page",
     description:
-      "A blogging platform with a content management system, user authentication, and an intuitive editor.",
+      "Dynamic PageBuilt a fully dynamic and responsive website for personal practice using React.js and Tailwind CSS.",
     techStack: ['React','Tailwind CSS'],
     imgSrc: project4,
     link: "https://virtual-website-landing-page.vercel.app/",
