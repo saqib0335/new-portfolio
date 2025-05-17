@@ -71,9 +71,9 @@ const Hero = () => {
         <p className='hero-text max-w-2xl p-2 text-center text-xl tracking-tighter lg:text-2xl'>
             {PROFILE.subheading}
         </p>
-        <a href='/my-cv.pdf' target='_blank' rel='noopener noreferrer' download className='hero-btn mb-6 flex gap-1 rounded-full border 
-        border-pink-200/50 px-3 py-2 tracking-tighter'>
-            <span className='text-lg font-bold'>Download Resume</span>
+        <a href='/cv.pdf' target='_blank' rel='noopener noreferrer' download className='hero-btn mb-6 flex gap-1 rounded-full border 
+             border-pink-200/50 px-3 py-2 tracking-tighter'>
+      g        <span className='text-lg font-bold'>Download Resume</span>
             <RiArrowRightUpLine />
         </a>
         <img src={ali} alt={PROFILE.name} width={400} height='400'
