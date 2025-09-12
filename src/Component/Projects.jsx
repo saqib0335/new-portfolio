@@ -12,8 +12,7 @@ const Projects = () => {
               const ctx = gsap.context(() => {
                 gsap.from(".project-card", {
                     duration: 1,
-                    y : 50,
-                    duration: 1,
+                    y: 50,
                     ease: "power3.out",
                     stagger: 0.3,
                     scrollTrigger: {

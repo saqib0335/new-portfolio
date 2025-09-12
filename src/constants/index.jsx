@@ -129,12 +129,19 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
+    yearRange: "2025 - still",
+    role: "Intern Frontend Development",
+    company: "HOPn",
+    description:"Build and maintain React components based on UI designs using JSX and Tailwind Fetch and display data from APIs, handling loading, error, and empty states properly. Write clean, readable code using React hooks (useState, useEffect, useContext)  and follow the project’s structure and conventions.Use Git for version control — push changes, create branches, and submit pull requests.Communication: Maintain regular contact with the team, attend virtual meetings, and provide updates on progress.",
+    techStack: ["Javascript", "React.js", "Taiwind Css", "Version Control"]
+  },
+  {
     yearRange: "2020 - 2021",
     role: "Junior Frontend Development",
     company: "Impact Software Solution",
     description:
       "UI Development: Designed and developed user interfaces for web applications using React.API Integration: Collaborated with backend developers to integrate frontend components with Node.js APIs.",
-    techStack: ["Javascript", "React.js", "Next.js", "Version Control"],
+    techStack: ["Javascript", "React.js", "Taiwind Css", "Version Control"],
   },
 ];
 
@@ -144,10 +151,16 @@ export const EDUCATION = [
     degree: "Master In Information Technology And Management",
     institution: "Berlin School of Business And Innovation",
     duration: "2023 - current",
-    description:
-      "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
   },
-  
+  {
+      id: 2,
+    degree: "Builiding Modern Projects In React.js",
+    institution: "Linkedin",
+    duration: "2025",
+    description:
+    "Successfully completed the Building Modern Projects with React course from LinkedIn Learning, solidifying advanced skills in modern React development, state management, and front-end architecture. Enhanced practical knowledge in JavaScript and contemporary web development practices.",
+  },
+      
   {
     id: 3,
     degree: "Certified Frontend Developer",
