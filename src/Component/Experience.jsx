@@ -45,6 +45,7 @@ const Experience = () => {
                                     </span>
                                 </h3>
                                 <p className='mb-4 text-sm lg:text-base'>{role.description}</p>
+                                
                             </div>
                         </div>
                     ))}

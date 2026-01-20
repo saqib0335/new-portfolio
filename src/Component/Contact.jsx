@@ -35,6 +35,7 @@ const Contact = () => {
           }, nameRef)
          return () => ctx.revert()
     },[])
+    
   return (
     <section className='py-16 relative' id='contact' ref={nameRef}>
         <div className='px-4 text-center'>
