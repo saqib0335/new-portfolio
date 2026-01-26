@@ -154,7 +154,7 @@ export const EDUCATION = [
   },
   {
       id: 2,
-    Certificate: "Builiding Modern Projects In React.js",
+    degree: "Builiding Modern Projects In React.js",
     institution: "Linkedin",
     duration: "2025",
     description:
@@ -163,7 +163,7 @@ export const EDUCATION = [
 
   {
       id: 3,
-      Certificate : "CertificateOfCompletion_Node.js Essential Training",
+      degree : "CertificateOfCompletion_Node.js Essential Training",
       institution: "Linkedin",
       duration: "2025",
       description : 
@@ -172,7 +172,7 @@ export const EDUCATION = [
       
   {
     id: 4,
-    Certificate: "Certified Frontend Developer",
+    degree: "Certified Frontend Developer",
     institution: "Codecademy",
     duration: "2024",
     description:
