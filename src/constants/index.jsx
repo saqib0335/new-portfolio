@@ -154,16 +154,25 @@ export const EDUCATION = [
   },
   {
       id: 2,
-    degree: "Builiding Modern Projects In React.js",
+    Certificate: "Builiding Modern Projects In React.js",
     institution: "Linkedin",
     duration: "2025",
     description:
     "Successfully completed the Building Modern Projects with React course from LinkedIn Learning, solidifying advanced skills in modern React development, state management, and front-end architecture. Enhanced practical knowledge in JavaScript and contemporary web development practices.",
   },
+
+  {
+      id: 3,
+      Certificate : "CertificateOfCompletion_Node.js Essential Training",
+      institution: "Linkedin",
+      duration: "2025",
+      description : 
+      "Completed Node.js Essential Training, gaining strong foundational knowledge in Node.js and backend development concepts, including asynchronous programming, event-driven architecture, and building efficient server-side applications"
+  },
       
   {
-    id: 3,
-    degree: "Certified Frontend Developer",
+    id: 4,
+    Certificate: "Certified Frontend Developer",
     institution: "Codecademy",
     duration: "2024",
     description:
