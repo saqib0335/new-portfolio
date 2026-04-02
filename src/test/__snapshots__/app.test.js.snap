@@ -1,0 +1,1063 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the app component 1`] = `
+<main
+  className="mx-auto max-w-7xl overflow-x-hidden antialiased"
+>
+  <div
+    className="bg-image fixed inset-0 bg-cover bg-fixed bg-center"
+  />
+  <div>
+    <div>
+      <nav
+        className="fixed left-0 right-0 z-50 lg:top-5"
+      >
+        <div
+          className="mx-auto hidden max-w-xl items-center justify-center rounded-full border border-white/30
+ py-2 backdrop-blur-lg lg:flex"
+        >
+          <div
+            className="flex items-center justify-between gap-6"
+          >
+            <div>
+              <a
+                href="/"
+              >
+                <span
+                  className="uppercase"
+                >
+                  Saqib Ali
+                </span>
+              </a>
+            </div>
+            <div>
+              <ul
+                className="flex items-center gap-4"
+              >
+                <li>
+                  <a
+                    className="text-sm hover:text-stone-300"
+                    href="#projects"
+                    onClick={[Function]}
+                  >
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-sm hover:text-stone-300"
+                    href="#skills"
+                    onClick={[Function]}
+                  >
+                    Skills
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-sm hover:text-stone-300"
+                    href="#work"
+                    onClick={[Function]}
+                  >
+                    Work Experience
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-sm hover:text-stone-300"
+                    href="#education"
+                    onClick={[Function]}
+                  >
+                    Education
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-sm hover:text-stone-300"
+                    href="#contact"
+                    onClick={[Function]}
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          className="py-2 backdrop-blur-md lg:hidden"
+        >
+          <div
+            className="flex items-center justify-between"
+          >
+            <div>
+              <a
+                href="#"
+              >
+                <span
+                  className="pl-2 uppercase"
+                >
+                  Saqib
+                </span>
+              </a>
+            </div>
+            <div
+              className="flex items-center"
+            >
+              <button
+                aria-label="Open Menu"
+                className="focus:outline-none lg:hidden"
+                onClick={[Function]}
+              >
+                <svg
+                  className="remixicon m-2 h-6 w-5"
+                  fill="currentColor"
+                  height={24}
+                  viewBox="0 0 24 24"
+                  width={24}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section
+      className="flex min-h-screen flex-col items-center justify-center gap-4 lg:gap-6"
+    >
+      <div
+        className="mt-11 lg:mt-20"
+      >
+        <h1
+          className="hero-title text-4xl uppercase lg:text-7xl"
+        >
+          Saqib Ali
+        </h1>
+        <h2
+          className="hero-subheading bg-gradient-to-b from-pink-200 to-purple-300 bg-clip-text text-center 
+ text-2xl tracking-tighter"
+        >
+          Software Developer
+        </h2>
+      </div>
+      <p
+        className="hero-text max-w-2xl p-2 text-center text-xl tracking-tighter lg:text-2xl"
+      >
+        Hello! I'm Saqib Ali, a Master's in Information Technology graduate from BSBI living in berlin.With a strong IT foundation and passion for creating seamless user experiences, I'm actively seeking frontend development roles. My education and current internship have equipped me with technical expertise that I'm eager to apply practically.
+      </p>
+      <a
+        className="hero-btn mb-6 flex gap-1 rounded-full border 
+ border-pink-200/50 px-3 py-2 tracking-tighter"
+        download={true}
+        href="/CV.pdf"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span
+          className="text-lg font-bold"
+        >
+          Download Resume
+        </span>
+        <svg
+          className="remixicon "
+          fill="currentColor"
+          height={24}
+          viewBox="0 0 24 24"
+          width={24}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+          />
+        </svg>
+      </a>
+      <img
+        alt="Saqib Ali"
+        className="hero-img rounded-3xl border border-purple-300/20 p-1"
+        height="400"
+        src="saqib.jpg"
+        width={400}
+      />
+    </section>
+    <section
+      className="pt-16 relative"
+      id="projects"
+    >
+      <div
+        className="px-4"
+      >
+        <h2
+          className="mb-8 text-center text-3xl font-medium lg:text-4xl"
+        >
+          Projects
+        </h2>
+        <div
+          className="flex flex-wrap justify-center"
+        >
+          <div
+            className="project-card flex w-full flex-col p-4 md:w-1/2 lg:w-1/3"
+          >
+            <div
+              className="flex-grow overflow-hidden rounded-lg border border-purple-300/20"
+            >
+              <a
+                className="cursor-pointer hover:opacity-80"
+                href="https://ev-website-chi.vercel.app"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="EV-SITE"
+                  className="h-60 w-full object-cover cursor-pointer"
+                  src="project1.webp"
+                />
+              </a>
+              <div
+                className="p-6"
+              >
+                <h3
+                  className="mb-2 text-lg font-medium lg:text-2xl"
+                >
+                  EV-SITE
+                </h3>
+                <p
+                  className="mb-4"
+                >
+                  A beautiful and dynamic Landing Page Electric Vehicle with click button of video
+                </p>
+                <div
+                  className="mb-4"
+                >
+                  <strong>
+                    Tech Stack:
+                  </strong>
+                  <ul>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      React
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      CSS
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      React Hooks
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="project-card flex w-full flex-col p-4 md:w-1/2 lg:w-1/3"
+          >
+            <div
+              className="flex-grow overflow-hidden rounded-lg border border-purple-300/20"
+            >
+              <a
+                className="cursor-pointer hover:opacity-80"
+                href="https://iphone-web-nu.vercel.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="IPHONE"
+                  className="h-60 w-full object-cover cursor-pointer"
+                  src="project2.webp"
+                />
+              </a>
+              <div
+                className="p-6"
+              >
+                <h3
+                  className="mb-2 text-lg font-medium lg:text-2xl"
+                >
+                  IPHONE
+                </h3>
+                <p
+                  className="mb-4"
+                >
+                  The Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. From custom animations to animated 3D models.
+                </p>
+                <div
+                  className="mb-4"
+                >
+                  <strong>
+                    Tech Stack:
+                  </strong>
+                  <ul>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      React
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      Redux
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      GSAP
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      Three.js
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="project-card flex w-full flex-col p-4 md:w-1/2 lg:w-1/3"
+          >
+            <div
+              className="flex-grow overflow-hidden rounded-lg border border-purple-300/20"
+            >
+              <a
+                className="cursor-pointer hover:opacity-80"
+                href="https://next-js-portfolio-puce-ten.vercel.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Portfolio Website"
+                  className="h-60 w-full object-cover cursor-pointer"
+                  src="project3.webp"
+                />
+              </a>
+              <div
+                className="p-6"
+              >
+                <h3
+                  className="mb-2 text-lg font-medium lg:text-2xl"
+                >
+                  Portfolio Website
+                </h3>
+                <p
+                  className="mb-4"
+                >
+                  A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.
+                </p>
+                <div
+                  className="mb-4"
+                >
+                  <strong>
+                    Tech Stack:
+                  </strong>
+                  <ul>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      Next.js
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      Tailwind CSS
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="project-card flex w-full flex-col p-4 md:w-1/2 lg:w-1/3"
+          >
+            <div
+              className="flex-grow overflow-hidden rounded-lg border border-purple-300/20"
+            >
+              <a
+                className="cursor-pointer hover:opacity-80"
+                href="https://virtual-website-landing-page.vercel.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Beautiful Landing Page"
+                  className="h-60 w-full object-cover cursor-pointer"
+                  src="project4.webp"
+                />
+              </a>
+              <div
+                className="p-6"
+              >
+                <h3
+                  className="mb-2 text-lg font-medium lg:text-2xl"
+                >
+                  Beautiful Landing Page
+                </h3>
+                <p
+                  className="mb-4"
+                >
+                  Dynamic PageBuilt a fully dynamic and responsive website for personal practice using React.js and Tailwind CSS.
+                </p>
+                <div
+                  className="mb-4"
+                >
+                  <strong>
+                    Tech Stack:
+                  </strong>
+                  <ul>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      React
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      Tailwind CSS
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="project-card flex w-full flex-col p-4 md:w-1/2 lg:w-1/3"
+          >
+            <div
+              className="flex-grow overflow-hidden rounded-lg border border-purple-300/20"
+            >
+              <a
+                className="cursor-pointer hover:opacity-80"
+                href="https://chat-session.vercel.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Chat Session"
+                  className="h-60 w-full object-cover cursor-pointer"
+                  src="project5.webp"
+                />
+              </a>
+              <div
+                className="p-6"
+              >
+                <h3
+                  className="mb-2 text-lg font-medium lg:text-2xl"
+                >
+                  Chat Session
+                </h3>
+                <p
+                  className="mb-4"
+                >
+                  This project is a React-based web application designed to display and manage chat sessions. Users can view a list of chat sessions filtered by date range, with detailed information such as creation date, last update, user ID, and message count.
+                </p>
+                <div
+                  className="mb-4"
+                >
+                  <strong>
+                    Tech Stack:
+                  </strong>
+                  <ul>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      React
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      CSS
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      React Router
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="project-card flex w-full flex-col p-4 md:w-1/2 lg:w-1/3"
+          >
+            <div
+              className="flex-grow overflow-hidden rounded-lg border border-purple-300/20"
+            >
+              <a
+                className="cursor-pointer hover:opacity-80"
+                href="https://movie-site-mu.vercel.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Movie Site"
+                  className="h-60 w-full object-cover cursor-pointer"
+                  src="project6.webp"
+                />
+              </a>
+              <div
+                className="p-6"
+              >
+                <h3
+                  className="mb-2 text-lg font-medium lg:text-2xl"
+                >
+                  Movie Site
+                </h3>
+                <p
+                  className="mb-4"
+                >
+                  I'm excited to share my passion for film with my network!  I've built an interactive movie website using React.js,and CSS. This project allows you to:Explore movies in a dynamic way: Experience a user-friendly interface that responds seamlessly to your interactions
+                </p>
+                <div
+                  className="mb-4"
+                >
+                  <strong>
+                    Tech Stack:
+                  </strong>
+                  <ul>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      React
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      React Hooks
+                    </li>
+                    <li
+                      className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30
+ px-3 py-1 text-sm font-semibold"
+                    >
+                      CSS
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="py-16 relative"
+      id="skills"
+    >
+      <div
+        className="px-8 relative"
+      >
+        <h2
+          className="mb-8 text-center text-3xl font-medium lg:text-4xl"
+        >
+          Skills
+        </h2>
+        <div
+          className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4"
+        >
+          <div
+            className="skill-item flex flex-col items-center text-center"
+          >
+            <div
+              className="mb-4"
+            >
+              <svg
+                className="remixicon text-orange-600"
+                fill="currentColor"
+                height={24}
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 18.1778L7.38083 16.9222L7.0517 13.3778H9.32156L9.48045 15.2222L12 15.8889L14.5195 15.2222L14.7806 12.3556H6.96091L6.32535 5.67778H17.6747L17.4477 7.88889H8.82219L9.02648 10.1444H17.2434L16.6192 16.9222L12 18.1778ZM3 2H21L19.377 20L12 22L4.62295 20L3 2ZM5.18844 4L6.48986 18.4339L12 19.9278L17.5101 18.4339L18.8116 4H5.18844Z"
+                />
+              </svg>
+            </div>
+            <h3
+              className="mb-2 text-lg font-medium lg:text-xl"
+            >
+              HTML5
+            </h3>
+          </div>
+          <div
+            className="skill-item flex flex-col items-center text-center"
+          >
+            <div
+              className="mb-4"
+            >
+              <svg
+                className="remixicon text-blue-500"
+                fill="currentColor"
+                height={24}
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.8 14H4.83961L4.2947 16.7245L10.0393 18.8787L17.2665 16.4697L18.3604 11H3.4L3.8 9H18.7604L19.5604 5H4.6L5 3H22L19 18L10 21L2 18L2.8 14Z"
+                />
+              </svg>
+            </div>
+            <h3
+              className="mb-2 text-lg font-medium lg:text-xl"
+            >
+              CSS3
+            </h3>
+          </div>
+          <div
+            className="skill-item flex flex-col items-center text-center"
+          >
+            <div
+              className="mb-4"
+            >
+              <svg
+                className="remixicon text-yellow-500"
+                fill="currentColor"
+                height={24}
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.3344 16.055 12.4764 17.243C13.2904 17.969 14.3024 18.332 15.5124 18.332 16.4364 18.31 17.1404 18.0717 17.6244 17.617 18.1157 17.155 18.3614 16.605 18.3614 15.967 18.3614 15.3437 18.1891 14.8303 17.8444 14.427 17.4997 14.0237 16.9204 13.701 16.1064 13.459 15.4317 13.2537 14.9551 13.0667 14.6764 12.898 14.3977 12.722 14.2584 12.5093 14.2584 12.26 14.2584 12.0327 14.3721 11.8493 14.5994 11.71 14.8267 11.5707 15.1311 11.501 15.5124 11.501 15.7911 11.501 16.1064 11.556 16.4584 11.666 16.8104 11.7613 17.1221 11.9153 17.3934 12.128L18.1634 10.929C17.4887 10.3863 16.5941 10.115 15.4794 10.115 14.6801 10.115 14.0237 10.3203 13.5104 10.731 12.9824 11.1417 12.7184 11.6513 12.7184 12.26 12.7257 12.9053 12.9384 13.4077 13.3564 13.767 13.7817 14.1263 14.3867 14.4197 15.1714 14.647 15.8241 14.8523 16.2677 15.0577 16.5024 15.263 16.7297 15.4683 16.8434 15.7177 16.8434 16.011 16.8434 16.297 16.7297 16.517 16.5024 16.671 16.2677 16.8323 15.9304 16.913 15.4904 16.913 14.7717 16.9203 14.0531 16.6343 13.3344 16.055ZM7.80405 16.693C7.58405 16.561 7.37872 16.3667 7.18805 16.11L6.15405 16.957C6.46205 17.4777 6.84339 17.8407 7.29805 18.046 7.72339 18.2367 8.21105 18.332 8.76105 18.332 9.06172 18.332 9.37339 18.2843 9.69605 18.189 10.0187 18.0937 10.3157 17.9323 10.5871 17.705 11.0637 17.3237 11.3131 16.7003 11.3351 15.835V10.247H9.85005V15.549C9.85005 16.055 9.73639 16.4107 9.50905 16.616 9.28172 16.814 8.99572 16.913 8.65105 16.913 8.32105 16.913 8.03872 16.8397 7.80405 16.693ZM3 6C3 4.34315 4.34315 3 6 3H18C19.6569 3 21 4.34315 21 6V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V6ZM6 5C5.44772 5 5 5.44772 5 6V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V6C19 5.44772 18.5523 5 18 5H6Z"
+                />
+              </svg>
+            </div>
+            <h3
+              className="mb-2 text-lg font-medium lg:text-xl"
+            >
+              JavaScript
+            </h3>
+          </div>
+          <div
+            className="skill-item flex flex-col items-center text-center"
+          >
+            <div
+              className="mb-4"
+            >
+              <svg
+                className="remixicon text-blue-400"
+                fill="currentColor"
+                height={24}
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.001 13.5001C11.1725 13.5001 10.501 12.8285 10.501 12.0001C10.501 11.1716 11.1725 10.5001 12.001 10.5001C12.8294 10.5001 13.501 11.1716 13.501 12.0001C13.501 12.8285 12.8294 13.5001 12.001 13.5001ZM11.4733 16.4945C11.6479 16.705 11.8239 16.908 12.001 17.103C12.178 16.908 12.3541 16.705 12.5286 16.4945C12.3538 16.4982 12.1779 16.5001 12.001 16.5001C11.824 16.5001 11.6481 16.4982 11.4733 16.4945ZM9.47837 16.3694C8.6762 16.2846 7.91035 16.1603 7.19268 16.0016C7.11832 16.3512 7.06134 16.6904 7.02243 17.0166C6.83358 18.6 7.09805 19.5617 7.50098 19.7943C7.9039 20.0269 8.86893 19.7751 10.1458 18.8199C10.4088 18.6231 10.6741 18.4042 10.9397 18.1649C10.4434 17.6228 9.95287 17.0217 9.47837 16.3694ZM16.8093 16.0016C16.0916 16.1603 15.3257 16.2846 14.5236 16.3694C14.0491 17.0217 13.5585 17.6228 13.0622 18.1649C13.3279 18.4042 13.5931 18.6231 13.8562 18.8199C15.133 19.7751 16.0981 20.0269 16.501 19.7943C16.9039 19.5617 17.1684 18.6 16.9795 17.0166C16.9406 16.6904 16.8836 16.3512 16.8093 16.0016ZM18.2598 15.6136C18.8364 18.2526 18.5328 20.3533 17.251 21.0933C15.9691 21.8334 13.9981 21.046 12.001 19.2271C10.0038 21.046 8.03282 21.8334 6.75098 21.0933C5.46913 20.3533 5.16555 18.2526 5.74217 15.6136C3.16842 14.7935 1.50098 13.4802 1.50098 12.0001C1.50098 10.5199 3.16842 9.20668 5.74217 8.38654C5.16555 5.74754 5.46913 3.64687 6.75098 2.9068C8.03282 2.16673 10.0038 2.95415 12.001 4.77302C13.9981 2.95415 15.9691 2.16673 17.251 2.9068C18.5328 3.64687 18.8364 5.74754 18.2598 8.38654C20.8335 9.20668 22.501 10.5199 22.501 12.0001C22.501 13.4802 20.8335 14.7935 18.2598 15.6136ZM10.9397 5.83521C10.6741 5.59597 10.4088 5.37703 10.1458 5.18024C8.86893 4.22499 7.9039 3.97321 7.50098 4.20584C7.09805 4.43847 6.83358 5.4001 7.02243 6.9835C7.06134 7.30969 7.11832 7.6489 7.19268 7.99857C7.91035 7.83985 8.6762 7.71556 9.47837 7.63078C9.95287 6.97848 10.4434 6.37737 10.9397 5.83521ZM14.5236 7.63078C15.3257 7.71556 16.0916 7.83985 16.8093 7.99857C16.8836 7.6489 16.9406 7.30969 16.9795 6.9835C17.1684 5.4001 16.9039 4.43847 16.501 4.20584C16.0981 3.97321 15.133 4.22499 13.8562 5.18024C13.5931 5.37703 13.3279 5.59597 13.0622 5.83521C13.5585 6.37737 14.0491 6.97848 14.5236 7.63078ZM12.5286 7.50565C12.3541 7.29515 12.178 7.09211 12.001 6.89711C11.8239 7.09211 11.6479 7.29515 11.4733 7.50565C11.6481 7.50194 11.824 7.50007 12.001 7.50007C12.1779 7.50007 12.3538 7.50194 12.5286 7.50565ZM8.37252 14.7042C8.28191 14.5547 8.19233 14.4033 8.10386 14.2501C8.01539 14.0968 7.92906 13.9435 7.84488 13.7903C7.74985 14.0467 7.66205 14.3007 7.58169 14.5515C7.83908 14.6074 8.10295 14.6583 8.37252 14.7042ZM10.3049 14.9377C10.8579 14.9788 11.4251 15.0001 12.001 15.0001C12.5769 15.0001 13.144 14.9788 13.697 14.9377C14.0091 14.4793 14.3111 13.9988 14.5991 13.5001C14.887 13.0013 15.1522 12.4995 15.393 12.0001C15.1522 11.5006 14.887 10.9988 14.5991 10.5001C14.3111 10.0013 14.0091 9.52081 13.697 9.06246C13.144 9.02133 12.5769 9.00007 12.001 9.00007C11.4251 9.00007 10.8579 9.02133 10.3049 9.06246C9.99283 9.52081 9.69086 10.0013 9.4029 10.5001C9.11494 10.9988 8.8498 11.5006 8.60892 12.0001C8.8498 12.4995 9.11494 13.0013 9.4029 13.5001C9.69086 13.9988 9.99283 14.4793 10.3049 14.9377ZM16.1571 10.2098C16.2521 9.9534 16.3399 9.6994 16.4203 9.44859C16.1629 9.39278 15.899 9.34182 15.6294 9.29591C15.72 9.44543 15.8096 9.59683 15.8981 9.75007C15.9866 9.9033 16.0729 10.0566 16.1571 10.2098ZM6.13143 9.83671C5.79142 9.94714 5.46917 10.0674 5.16723 10.1968C3.70154 10.825 3.00098 11.5348 3.00098 12.0001C3.00098 12.4653 3.70154 13.1752 5.16723 13.8033C5.46917 13.9327 5.79142 14.053 6.13143 14.1634C6.35281 13.4625 6.6281 12.7371 6.95576 12.0001C6.6281 11.263 6.35281 10.5376 6.13143 9.83671ZM7.58169 9.44859C7.66205 9.6994 7.74985 9.9534 7.84488 10.2098C7.92906 10.0566 8.01539 9.9033 8.10386 9.75007C8.19233 9.59683 8.28191 9.44543 8.37252 9.29591C8.10295 9.34182 7.83908 9.39278 7.58169 9.44859ZM17.8705 14.1634C18.2105 14.053 18.5328 13.9327 18.8347 13.8033C20.3004 13.1752 21.001 12.4653 21.001 12.0001C21.001 11.5348 20.3004 10.825 18.8347 10.1968C18.5328 10.0674 18.2105 9.94714 17.8705 9.83671C17.6491 10.5376 17.3739 11.263 17.0462 12.0001C17.3739 12.7371 17.6491 13.4625 17.8705 14.1634ZM16.4203 14.5515C16.3399 14.3007 16.2521 14.0467 16.1571 13.7903C16.0729 13.9435 15.9866 14.0968 15.8981 14.2501C15.8096 14.4033 15.72 14.5547 15.6294 14.7042C15.899 14.6583 16.1629 14.6074 16.4203 14.5515Z"
+                />
+              </svg>
+            </div>
+            <h3
+              className="mb-2 text-lg font-medium lg:text-xl"
+            >
+              React
+            </h3>
+          </div>
+          <div
+            className="skill-item flex flex-col items-center text-center"
+          >
+            <div
+              className="mb-4"
+            >
+              <svg
+                className="remixicon text-green-500"
+                fill="currentColor"
+                height={24}
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 2C10.5523 2 11 2.44772 11 3V7C11 7.55228 10.5523 8 10 8H8V10H13V9C13 8.44772 13.4477 8 14 8H20C20.5523 8 21 8.44772 21 9V13C21 13.5523 20.5523 14 20 14H14C13.4477 14 13 13.5523 13 13V12H8V18H13V17C13 16.4477 13.4477 16 14 16H20C20.5523 16 21 16.4477 21 17V21C21 21.5523 20.5523 22 20 22H14C13.4477 22 13 21.5523 13 21V20H7C6.44772 20 6 19.5523 6 19V8H4C3.44772 8 3 7.55228 3 7V3C3 2.44772 3.44772 2 4 2H10ZM19 18H15V20H19V18ZM19 10H15V12H19V10ZM9 4H5V6H9V4Z"
+                />
+              </svg>
+            </div>
+            <h3
+              className="mb-2 text-lg font-medium lg:text-xl"
+            >
+              Node.js
+            </h3>
+          </div>
+          <div
+            className="skill-item flex flex-col items-center text-center"
+          >
+            <div
+              className="mb-4"
+            >
+              <svg
+                className="remixicon text-green-600"
+                fill="currentColor"
+                height={24}
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 19V9H4V19H11ZM11 7V4C11 3.44772 11.4477 3 12 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V8C2 7.44772 2.44772 7 3 7H11ZM13 5V19H20V5H13ZM5 16H10V18H5V16ZM14 16H19V18H14V16ZM14 13H19V15H14V13ZM14 10H19V12H14V10ZM5 13H10V15H5V13Z"
+                />
+              </svg>
+            </div>
+            <h3
+              className="mb-2 text-lg font-medium lg:text-xl"
+            >
+              MongoDB
+            </h3>
+          </div>
+          <div
+            className="skill-item flex flex-col items-center text-center"
+          >
+            <div
+              className="mb-4"
+            >
+              <svg
+                className="remixicon text-teal-400"
+                fill="currentColor"
+                height={24}
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"
+                />
+              </svg>
+            </div>
+            <h3
+              className="mb-2 text-lg font-medium lg:text-xl"
+            >
+              Tailwind CSS
+            </h3>
+          </div>
+          <div
+            className="skill-item flex flex-col items-center text-center"
+          >
+            <div
+              className="mb-4"
+            >
+              <svg
+                className="remixicon text-orange-500"
+                fill="currentColor"
+                height={24}
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.10508 15.2101C8.21506 15.6501 9 16.7334 9 18C9 19.6569 7.65685 21 6 21C4.34315 21 3 19.6569 3 18C3 16.6938 3.83481 15.5825 5 15.1707V8.82929C3.83481 8.41746 3 7.30622 3 6C3 4.34315 4.34315 3 6 3C7.65685 3 9 4.34315 9 6C9 7.30622 8.16519 8.41746 7 8.82929V11.9996C7.83566 11.3719 8.87439 11 10 11H14C15.3835 11 16.5482 10.0635 16.8949 8.78991C15.7849 8.34988 15 7.26661 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6C21 7.3332 20.1303 8.46329 18.9274 8.85392C18.5222 11.2085 16.4703 13 14 13H10C8.61653 13 7.45179 13.9365 7.10508 15.2101ZM6 17C5.44772 17 5 17.4477 5 18C5 18.5523 5.44772 19 6 19C6.55228 19 7 18.5523 7 18C7 17.4477 6.55228 17 6 17ZM6 5C5.44772 5 5 5.44772 5 6C5 6.55228 5.44772 7 6 7C6.55228 7 7 6.55228 7 6C7 5.44772 6.55228 5 6 5ZM18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                />
+              </svg>
+            </div>
+            <h3
+              className="mb-2 text-lg font-medium lg:text-xl"
+            >
+              Git
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="py-16"
+      id="work"
+    >
+      <div
+        className="mx-auto max-w-4xl px-4"
+      >
+        <h2
+          className="mb-12 text-center text-3xl font-medium lg:text-4xl"
+        >
+          Experience
+        </h2>
+        <div
+          className="flex flex-col space-y-12"
+        >
+          <div
+            className="experience-item flex flex-col items-start justify-between md:flex-row"
+          >
+            <div
+              className="w-full text-sm font-semibold text-stone-300 md:w-1/4 lg:text-lg"
+            >
+              2025-june / Present
+            </div>
+            <div
+              className="w-full md:w-3/4"
+            >
+              <h3
+                className="mb-2 text-lg lg:text-2xl"
+              >
+                Intern Frontend Development
+                 -
+                 
+                <span
+                  className="bg-gradient-to-b from-purple-400 to-pink-200 bg-clip-text text-transparent"
+                >
+                  HOPn
+                </span>
+              </h3>
+              <p
+                className="mb-4 text-sm lg:text-base"
+              >
+                Build and maintain React components based on UI designs using JSX and Tailwind Fetch and display data from APIs, handling loading, error, and empty states properly. Write clean, readable code using React hooks (useState, useEffect, useContext)  and follow the project’s structure and conventions.Use Git for version control — push changes, create branches, and submit pull requests.Communication: Maintain regular contact with the team, attend virtual meetings, and provide updates on progress.
+              </p>
+            </div>
+          </div>
+          <div
+            className="experience-item flex flex-col items-start justify-between md:flex-row"
+          >
+            <div
+              className="w-full text-sm font-semibold text-stone-300 md:w-1/4 lg:text-lg"
+            >
+              2020 - 2021
+            </div>
+            <div
+              className="w-full md:w-3/4"
+            >
+              <h3
+                className="mb-2 text-lg lg:text-2xl"
+              >
+                Junior Frontend Development
+                 -
+                 
+                <span
+                  className="bg-gradient-to-b from-purple-400 to-pink-200 bg-clip-text text-transparent"
+                >
+                  Impact Software Solution
+                </span>
+              </h3>
+              <p
+                className="mb-4 text-sm lg:text-base"
+              >
+                UI Development: Designed and developed user interfaces for web applications using React.API Integration: Collaborated with backend developers to integrate frontend components with Node.js APIs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="py-16"
+      id="education"
+    >
+      <div
+        className="mx-auto max-w-full px-4"
+      >
+        <h2
+          className="mb-8 text-center text-3xl font-medium lg:text-4xl"
+        >
+          Education
+        </h2>
+        <div
+          className="flex flex-col space-y-8"
+        >
+          <div
+            className="edu-card rounded-xl border border-purple-300/20 p-6"
+          >
+            <h3
+              className="mb-2 text-lg lg:text-2xl"
+            >
+              Master In Information Technology And Management
+            </h3>
+            <h4
+              className="text-lg font-medium lg:text-xl"
+            >
+              Berlin School of Business And Innovation
+            </h4>
+            <p
+              className="text-sm lg:text-base"
+            >
+              2023 - current
+            </p>
+            <p
+              className="mt-4 lg:text-base"
+            />
+          </div>
+          <div
+            className="edu-card rounded-xl border border-purple-300/20 p-6"
+          >
+            <h3
+              className="mb-2 text-lg lg:text-2xl"
+            >
+              Builiding Modern Projects In React.js
+            </h3>
+            <h4
+              className="text-lg font-medium lg:text-xl"
+            >
+              Linkedin
+            </h4>
+            <p
+              className="text-sm lg:text-base"
+            >
+              2025
+            </p>
+            <p
+              className="mt-4 lg:text-base"
+            >
+              Successfully completed the Building Modern Projects with React course from LinkedIn Learning, solidifying advanced skills in modern React development, state management, and front-end architecture. Enhanced practical knowledge in JavaScript and contemporary web development practices.
+            </p>
+          </div>
+          <div
+            className="edu-card rounded-xl border border-purple-300/20 p-6"
+          >
+            <h3
+              className="mb-2 text-lg lg:text-2xl"
+            >
+              CertificateOfCompletion_Node.js Essential Training
+            </h3>
+            <h4
+              className="text-lg font-medium lg:text-xl"
+            >
+              Linkedin
+            </h4>
+            <p
+              className="text-sm lg:text-base"
+            >
+              2025
+            </p>
+            <p
+              className="mt-4 lg:text-base"
+            >
+              Completed Node.js Essential Training, gaining strong foundational knowledge in Node.js and backend development concepts, including asynchronous programming, event-driven architecture, and building efficient server-side applications
+            </p>
+          </div>
+          <div
+            className="edu-card rounded-xl border border-purple-300/20 p-6"
+          >
+            <h3
+              className="mb-2 text-lg lg:text-2xl"
+            >
+              Certified Frontend Developer
+            </h3>
+            <h4
+              className="text-lg font-medium lg:text-xl"
+            >
+              Codecademy
+            </h4>
+            <p
+              className="text-sm lg:text-base"
+            >
+              2024
+            </p>
+            <p
+              className="mt-4 lg:text-base"
+            >
+              Earned a certification in advanced Frontend development, including Javascript, React js, Tailwind Css, Git, and performance optimization.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="py-16 relative"
+      id="contact"
+    >
+      <div
+        className="px-4 text-center"
+      >
+        <h2
+          className="contact-text mb-8 text-3xl font-medium lg:text-4xl"
+        >
+          Contact
+        </h2>
+        <p
+          className="contact-icon mb-4 text-lg lg:text-xl"
+        >
+          Feel free to reach to me via email: 
+          <a
+            className="border-b"
+            href="mailto:saqibpak00@gmail.com"
+          >
+            saqibpak00@gmail.com
+          </a>
+        </p>
+        <div
+          className="mt-8 flex justify-center space-x-6"
+        >
+          <a
+            aria-label="Visit my linkedIn Profile"
+            className="contact-icon"
+            href="https://www.linkedin.com/in/saqib-ali-658647198/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              className="remixicon text-3xl"
+              fill="currentColor"
+              height={24}
+              viewBox="0 0 24 24"
+              width={24}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"
+              />
+            </svg>
+          </a>
+          <a
+            aria-label="Visit my Github Profile"
+            className="contact-icon"
+            href="https://github.com/saqib0335"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              className="remixicon text-3xl"
+              fill="currentColor"
+              height={24}
+              viewBox="0 0 24 24"
+              width={24}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"
+              />
+            </svg>
+          </a>
+          <a
+            aria-label="Visit my X Profile"
+            className="contact-icon"
+            href="https://x.com/Saqibpak00Ali"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              className="remixicon text-3xl"
+              fill="currentColor"
+              height={24}
+              viewBox="0 0 24 24"
+              width={24}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22.2125 5.65605C21.4491 5.99375 20.6395 6.21555 19.8106 6.31411C20.6839 5.79132 21.3374 4.9689 21.6493 4.00005C20.8287 4.48761 19.9305 4.83077 18.9938 5.01461C18.2031 4.17106 17.098 3.69303 15.9418 3.69434C13.6326 3.69434 11.7597 5.56661 11.7597 7.87683C11.7597 8.20458 11.7973 8.52242 11.8676 8.82909C8.39047 8.65404 5.31007 6.99005 3.24678 4.45941C2.87529 5.09767 2.68005 5.82318 2.68104 6.56167C2.68104 8.01259 3.4196 9.29324 4.54149 10.043C3.87737 10.022 3.22788 9.84264 2.64718 9.51973C2.64654 9.5373 2.64654 9.55487 2.64654 9.57148C2.64654 11.5984 4.08819 13.2892 6.00199 13.6731C5.6428 13.7703 5.27232 13.8194 4.90022 13.8191C4.62997 13.8191 4.36771 13.7942 4.11279 13.7453C4.64531 15.4065 6.18886 16.6159 8.0196 16.6491C6.53813 17.8118 4.70869 18.4426 2.82543 18.4399C2.49212 18.4402 2.15909 18.4205 1.82812 18.3811C3.74004 19.6102 5.96552 20.2625 8.23842 20.2601C15.9316 20.2601 20.138 13.8875 20.138 8.36111C20.138 8.1803 20.1336 7.99886 20.1256 7.81997C20.9443 7.22845 21.651 6.49567 22.2125 5.65605Z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+`;

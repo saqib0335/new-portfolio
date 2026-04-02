@@ -31,7 +31,9 @@ export const PROFILE = {
   name: "Saqib Ali",
   role: "Software Developer",
   subheading:
-    "Hello! I'm Saqib Ali, a Master's in Information Technology graduate from BSBI living in berlin.With a strong IT foundation and passion for creating seamless user experiences, I'm actively seeking frontend development roles. My education and current internship have equipped me with technical expertise that I'm eager to apply practically.",
+    `Hi, I'm Saqib Ali.A Frontend Software Developer based in Berlin. I relocated from Pakistan to Germany in 
+    2023 to complete my MSc in Information Technology at BSBI (2025), and haven't stopped building since. I'm passionate about creating fast, clean, and user-friendly web experiences — 
+    and actively seeking full-time Frontend/Software Engineer roles in Germany.`,
 };
 
 export const PROJECTS = [
@@ -129,7 +131,7 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    yearRange: "2025-june / Present",
+    yearRange: "2025-june / 2025-december",
     role: "Intern Frontend Development",
     company: "HOPn",
     description:"Build and maintain React components based on UI designs using JSX and Tailwind Fetch and display data from APIs, handling loading, error, and empty states properly. Write clean, readable code using React hooks (useState, useEffect, useContext)  and follow the project’s structure and conventions.Use Git for version control — push changes, create branches, and submit pull requests.Communication: Maintain regular contact with the team, attend virtual meetings, and provide updates on progress.",
