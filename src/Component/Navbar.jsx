@@ -27,8 +27,8 @@ const Navbar = () => {
 
   return (
     <div>
-        <nav className='fixed left-0 right-0 z-50 lg:top-5'>
-            <div className='mx-auto hidden max-w-xl items-center justify-center rounded-full border border-white/30
+        <nav className='fixed left-0 right-0 z-50 lg:top-4'>
+            <div className='mx-auto max-w-xl items-center justify-center rounded-full border border-white/30
             py-2 backdrop-blur-lg lg:flex'>
                 <div className='flex items-center justify-between gap-6'>
                     <div>
@@ -37,7 +37,7 @@ const Navbar = () => {
                         </a>
                     </div>
                     <div>
-                        <ul className='flex items-center gap-4'>
+                        <ul className='flex items-center justify-center gap-4'>
                            {NAVIGATION_LINKS.map((item, index) =>(
                             <li key={index}>
                                 <a href={item.href}  onClick={(e) =>handleSubmit(e, item.href)} 

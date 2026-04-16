@@ -32,7 +32,7 @@ export const PROFILE = {
   role: "Software Developer",
   subheading:
     `Hi, I'm Saqib Ali.A Frontend Software Developer based in Berlin. I relocated from Pakistan to Germany in 
-    2023 to complete my MSc in Information Technology at BSBI (2025), and haven't stopped building since. I'm passionate about creating fast, clean, and user-friendly web experiences — 
+    2023 to complete my MSc in Information Technology at BSBI (2025), and haven't stopped building since. I'm passionate about creating fast, clean, and user-friendly web experiences
     and actively seeking full-time Frontend/Software Engineer roles in Germany.`,
 };
 
@@ -152,7 +152,7 @@ export const EDUCATION = [
     id: 1,
     degree: "Master In Information Technology And Management",
     institution: "Berlin School of Business And Innovation",
-    duration: "2023 - current",
+    duration: "From 2023-oct to  2025-sep"
   },
   {
       id: 2,
